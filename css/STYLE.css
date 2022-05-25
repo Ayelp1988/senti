@@ -1,94 +1,104 @@
+/* LOS COLORES SON SOLO PARA VISUALIZAR MEJOR EL BOX LUEGO LOS CAMBIO SEGURAMENTE VOY A IR CON LOS FLUO XQ EL FONDO LO VOY A HACER GRIS GRADIENT Y RE PEGA*/
 
+/* Selector Universal--*/
 
- /* LOS COLORES SON SOLO PARA VISUALIZAR MEJOR EL BOX LUEGO LOS CAMBIO SEGURAMENTE VOY A IR CON LOS FLUO XQ EL FONDO LO VOY A HACER GRIS GRADIENT Y RE PEGA*/
-
-  /* Selector Universal--*/
-
-  *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: 'Roboto Flex', sans-serif;
-    font-family: 'Koulen', cursive;
-    margin: 0em;
-    padding: 0em;
-  }
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Koulen', cursive;
+  margin: 0em;
+  padding: 0em;
+}
 
 
 /* PARA TODAS LAS PÁGINAS */
 
 
-body{
- /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #3da6cc, #0294b1, #28969e, #075a54);
+body {
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #3da6cc, #0294b1, #28969e, #075a54);
   margin: 0; */
-background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
 
 
-h1, h4 {
+h1,
+h4 {
   margin: 10px;
-  color: rgb(235, 8, 114);
+  /*color: rgb(235, 8, 114);*/
   background-color: transparent;
 }
 
-#logo{
-  margin:0.3em;
-  border: solid rgb(255, 0, 132);
+#logo {
+  margin: 0.3em;
+  /*border: solid rgb(255, 0, 132);*/
 }
 
 section {
-width: 90%;
-border: solid pink;
-margin:0 auto;
+  width: 90%;
+  /*border: solid pink;*/
+  margin: 0 auto;
 }
 
-#imagenhome  {
- width: 80%;
- margin:0 auto;
-border: solid rgb(255, 0, 132);
- }
+#imagenhome {
+  width: 80%;
+  margin: 0 auto;
+  /* border: solid rgb(255, 0, 132); */
+}
 
 /** No me toma cuadno pogo margin: 3 em rigth / lefth **/
 
 
 /** Nav **/
 nav {
- width: 100%;
- height: 3em;
+  width: 100%;
+  height: 3em;
   margin: 0;
   background-image: linear-gradient(315deg, #4c57678e 0%, #f5f7fa83 74%);
-  display: inline-block;
- float: right;
- text-align: right;
-  }
-  
- nav ul {
-  width: 100%;
-  margin:0;
-  border:solid violet
-  }
-  
-  nav li {
-  width:5em;
+  /* display: inline-block;
+  text-align: center;
+ */
+}
+
+nav ul {
+  /* width: 100%;
+  margin: 0;
+   border: solid violet */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  /* width: 5em;
   height: auto;
   margin: 0 auto;
- /* line-height:3.125em; */
+  line-height:3.125em; 
   vertical-align: middle;
-  text-align:center;
-  list-style:none;
+  text-align: center;
+  list-style: none; */
   float: right;
-  border: solid yellow;
-  }
-  
-  nav li a {
-  color:#ffffff;
+  /* border: solid yellow; */
+}
+
+nav li a {
+  /* color: #ffffff;
   border: solid red;
   display: inline-block;
   text-decoration: none;
-  margin:auto;
-  }
+  margin: auto;
+ */
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /** quiero agrandar un poco el tamaño de la letra per q no me cambie el tamaño del nav**/
-  nav li a:hover {
+nav li a:hover {
   color: #ff0080;
-  }
+}
 
 
 
@@ -97,8 +107,8 @@ nav {
 
 
 
-  /* FOOTER */
-  
+/* FOOTER */
+
 footer {
   border: solid pink;
   background-color: #ffffff;
@@ -111,48 +121,121 @@ footer {
   width: 100%;
   margin-top: 30px;
 }
-	
+
 #pie p {
-float: left;
+  float: left;
 }
 
 #redes {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
 }
 
 
 
- 
-#redes li { 
-margin:0.5em; 
-justify-content: center;
-display: flex;
-align-content: center;
-float: left;
-color:transparent;
+
+#redes li {
+  margin: 0.5em;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  float: left;
+  color: transparent;
 
 }
 
-#redes ul { 
+#redes ul {
 
-float: left;
-color:transparent;
+  float: left;
+  color: transparent;
 }
 
-#redes img { 
-width: 2em;
-text-align: center;
-justify-content: space-around; /** margin**/
+#redes img {
+  width: 2em;
+  text-align: center;
+  justify-content: space-around;
+  /** margin**/
 }
 
 h2 {
   text-align: center;
-  color:#ff0080;
+  color: #ff0080;
 }
 
-/**PÁGINA DE INICIO*//
+/**PÁGINA DE INICIO*/
+/
+/** Cards de Productos **/
+
+
+div.cards {
+  box-sizing: border-box;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 1em;
+  float: left;
+  margin: 0.5em;
+  border: 0.01em solid transparent;
+  margin-left: 2em;
+  card hover: transition-timing-function;
+  ease inset:
+    /**no funka la transición **/
+
+}
+
+div.card {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div.cards:hover {
+  opacity: 0.5;
+}
+
+
+article {
+  border: solid transparent;
+  width: 100%;
+  margin: 0%;
+  display: inline-block;
+  position: relative;
+}
+
+
+div.mapa {
+  background-color: aquamarine;
+  margin-left: 2em;
+  display: inline-block;
+  position: relative;
+}
+
+/*FORMULARIO*/
+
+#form {
+  /* border: solid pink; */
+  width: 80%;
+  margin: 0 auto
+}
+
+#form p {
+  border: solid rgb(245, 0, 41);
+  color: #ff0080;
+  font-size: 1.5em;
+}
+
+#form fieldset {
+  margin-bottom: 3em;
+}
+
+#form legend {
+  color: #454545;
+  font-size: 1.3em;
+  margin-bottom: -3em;
+}
+
+#form label {
+  /* border: solid red; */
+}
 
 /** Cards de Productos **/
 
@@ -162,87 +245,17 @@ div.cards {
   width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 1em;
-  float:left;
+  float: left;
   margin: 0.5em;
   border: 0.01em solid transparent;
-  margin-left: 2em ;
-  card hover:transition-timing-function; ease inset: 
-  /**no funka la transición **/
- 
-}
-
-div.card{
-  text-align: center;
-  padding: 10px 20px;
-}
-
-div.cards:hover {
-  opacity: 0.5;
-}
-
-
-article{
-  border:solid transparent;
-  width: 100%;
-  margin: 0%;
-  display: inline-block;
-  position: relative;
-  }
-
-
-div.mapa{
-  background-color: aquamarine;
   margin-left: 2em;
-  display: inline-block;
-  position: relative;
-  }
-
-/*FORMULARIO*/
-
-#form{
-  border: solid pink;
-  width: 80%;
-  margin:0 auto
-}
-
-#form p {
-  border: solid rgb(245, 0, 41);
-  color:#ff0080;
-  font-size: 1.5em;
-}
-
-#form fieldset {
- margin-bottom: 3em;
-}
-
-#form legend {
-  color:#454545;
-  font-size: 1.3em;
-  margin-bottom: -3em;
-}
-
-#form label {
-border:solid red;
-}/** Cards de Productos **/
-
-
-div.cards {
-  box-sizing: border-box;
-  width: 30%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 1em;
-  float:left;
-  margin: 0.5em;
-  border: 0.01em solid transparent;
-  margin-left: 2em ;
-  card hover:transition-timing-function; ease inset: 
   /**no funka la transición **/
- 
 
- 
+
+
 }
 
-div.card{
+div.card {
   text-align: center;
   padding: 10px 20px;
 }
@@ -254,22 +267,22 @@ div.cards:hover {
 
 h2 {
   text-align: center;
-  color:#ff0080;
+  color: #ff0080;
 }
 
 
-article{
-  border:solid transparent;
+article {
+  border: solid transparent;
   width: 100%;
   margin: 0%;
   display: inline-block;
   position: relative;
-  }
+}
 
 
-div.mapa{
+div.mapa {
   background-color: aquamarine;
   margin-left: 2em;
   display: inline-block;
   position: relative;
-  }
+}
