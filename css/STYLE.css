@@ -182,30 +182,31 @@ div.mapa {
   margin: 0 auto
 }
 
-#formulario p {
-  color: #ffffff;
-  font-size: 1.5em;
+
+
+
+.textform {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   font-weight: bold;
-  background: linear-gradient(to top right, #fb06ad 1%, #68CFC1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 0;
-  font-family: 'Roboto Flex', sans-serif;
+  font-size: 2em;
 }
 
-#formulario fieldset {
-  margin-bottom: 3em;
+
+/*---------------SOBRE NOSOTROS--------------------------*/
+
+.frase{
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
 }
 
-#formulario legend {
-  color: #454545;
-  font-size: 1.3em;
-  margin-bottom: -3em;
-}
-
-input {
-  border: solid red;
-}
 
 /*screen: monitores o pantallas de computadora*/
 @media only screen and (max-width: 600px) {

@@ -1,232 +1,192 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>senti.com.ar</title>
-    <link rel="icon" href="img/icon.ico">
-    <link href="css/STYLE.css" rel="stylesheet" type="text/css">
-     <!--Eframes Icons-------------------------------------------->	
-     <script src="https://kit.fontawesome.com/2137c0a5e8.js" crossorigin="anonymous"></script>
-   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">  
 
-<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>senti.com.ar</title>
+  <link rel="icon" href="img/icon.ico">
+  <link href="css/STYLE.css" rel="stylesheet" type="text/css">
+  <!--Eframes Icons-------------------------------------------->
+  <script src="https://kit.fontawesome.com/2137c0a5e8.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,200&family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200&family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
+    rel="stylesheet">
 
 </head>
-
 
 
 <body>
 
 
+  <!--------------------------------------------------header--------------------------------------------->
+  <header>
+    <div id="logo">
 
+      <img src="img/logosenti.png" alt="logo" width="150" height="150">
 
- 
- <!--header--------------------------------------------->
- <header> 
-   <div id="logo"> 
-   <!--<h1>SENTI</h1>-->
-   <img src="img/logosenti.png" alt="logo" width="150" height="150">
-  <!---- <h4>Soluciones Gráficas</h4>-->
-  </div>
-</header>
+    </div>
+  </header>
+  <!--------------------------------------------cierro header------------------------------------------->
 
 
-  <!--nav------------------------------------------------------>  
- <nav>
+  <!-------------------------------------------nav------------------------------------------------------>
+  <nav>
 
-  <ul>
-    <li>
-      <a href="index.html">Home</a>
-    </li>
-                
-    <li>
-      <a href="productos.html">Servicios</a>
-    </li>
+    <ul>
 
-    <li>
-    <A href="https://drive.google.com/file/d/17KFr5GdanXmm_M6FKWitTBH9WRuNU8bK/view?usp=sharing"
- target="_blank">Tarifario</A>
-   
-  </li>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
 
-    <li>
-      <a href="contacto.html">Contacto</a>
-    </li>
-  </ul>
+      <li>
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+      </li>
 
-</nav>
+      <li>
+        <a href="https://drive.google.com/file/d/1H_z-C-lHBmK7KrfMdK7tBhD0wFGzfEN-/view?usp=sharing"
+          target="_blank">Tarifario</a>
 
+      </li>
 
+      <li>
+        <a href="contacto.html">Contacto</a>
+      </li>
 
 
-<!--cierro nav-------------------------------------------------->
-    
+    </ul>
 
+  </nav>
 
+  <!---------------------------cierro nav----------------------------------------------------------->
 
 
 
 
 
 
+  <!--Section----------------------------------------------->
 
+  <section>
 
 
+    <!------------------------------------FORULARIO DE CONTACTO---------------------------------------->
 
+    <div id="formulario">
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--FORULARIO DE CONTACTO-->
-
-<div id="form">
-
-<p>Dejanos tu mensaje</p>
-<br>
-<fieldset>
-
-<legend>Datos Personales</legend>
- <br><br><br>
-<label for="nombre">Nombre y Apellido</label>
-<input type="text"id="nombre" name="nombre" maxlength="30">
-<br><br>
-<label for="fnach">Fecha Nacimiento</label>
-<input type="date">
-<br><br>
-<label for="correo">Correo</label>
-<input type="email">
-<br><br>
-
-</fieldset>
-
-
-
-<label for="adjuntararchivo">Adjunta lo que creas necesario para hacernos saber de tu proyecto (Fotos, Texto, etc)</label>
-<br><br>
-<input type="file">
-<br><br>
-<br>
-<label for="mensaje">Dejanos tu mensaje:</label>
-<br>
-<textarea name="comentario" id="comentario" cols="20" rows="3"></textarea>
-
-<br><br>
-
-<label for="op">Qué servicio te interesaría contratar?</label>
-<br>
-<input type="checkbox" name="op" value="1" checked> WEB
-<input type="checkbox" name="op" value="2"> REDES SOCIALES
-<input type="checkbox" name="op" value="1"> EDICIÓN MULTIMEDIA (Fotos, Videos, etc.)
-
-
-<br><br><br>
-
-<input type="submit" value="enviar datos">
-<input type="reset" value="Borrar">
-
-
-</div>
-    
-<!--/FORULARIO DE CONTACTO-->
-
-
-
-
-
-
-
-
-
- <!--Eframes mapa de Google----------------------------------------------->	
- 
- <br><br><br>
-
-
- <!--Este me queda arriba---------------------------------------------->	
-  <div class="mapa">
-    <i class="fa-solid fa-location-dot"></i>  
-  </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9409930954935!2d-58.40815704947996!3d-34.6056535803631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf2a00d73df%3A0xc90b4ce1a7523378!2sAv.%20Pueyrred%C3%B3n%20400%2C%20C1032ABQ%20CABA!5e0!3m2!1ses!2sar!4v1617796104662!5m2!1ses!2sar" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  
-
- 
- <!--footer--------------------------------------------->
+      <h1 class="textform">Dejanos tu mensaje</h1>
+      <br>
       
- <footer>
-  <div id="pie">
-    <abbr title="Visitanos">sitioweb...</abbr>
-    <p>Teléfono 1160000000</p><br>
 
-   <a href="mailto:ayelenlopez@gmail.com?subject=Contacto">Enviar correo</a>
+        <legend>Datos Personales</legend>
+        <br><br><br>
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" id="nombre" name="nombre" maxlength="30">
+        <br><br>
+        <label for="fnach">Fecha Nacimiento</label>
+        <input type="date">
+        <br><br>
+        <label for="correo">Correo</label>
+        <input type="email">
+        <br><br>
+
+      
+
+
+
+      <label for="adjuntararchivo">Adjunta lo que creas necesario para hacernos saber de tu proyecto (Fotos, Texto,
+        etc)</label>
+      <br><br>
+      <input type="file">
+      <br><br>
+      <br>
+      <label for="mensaje">Dejanos tu mensaje:</label>
+      <br>
+      <textarea name="comentario" id="comentario" cols="20" rows="3"></textarea>
+
+      <br><br>
+
+      <label for="op">Qué servicio te interesaría contratar?</label>
+      <br><br>
+      <input type="checkbox" name="op" value="1" checked> WEB
+      <input type="checkbox" name="op" value="2"> REDES SOCIALES
+      <input type="checkbox" name="op" value="1"> EDICIÓN MULTIMEDIA (Fotos, Videos, etc.)
+
+
+      <br><br><br>
+      <div class="input">
+        <input type="submit" value="enviar datos">
+        <input type="reset" value="Borrar">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-----------------------------------------------------/FORULARIO DE CONTACTO-->
+
+  <!----------------------------------------Eframes mapa de Google----------------------------------------------->
+
+  <br><br><br>
+
+
+
+  <div class="mapa">
+    <i class="fa-solid fa-location-dot"></i>
   </div>
- 
- 
- <div id="redes">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9409930954935!2d-58.40815704947996!3d-34.6056535803631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf2a00d73df%3A0xc90b4ce1a7523378!2sAv.%20Pueyrred%C3%B3n%20400%2C%20C1032ABQ%20CABA!5e0!3m2!1ses!2sar!4v1617796104662!5m2!1ses!2sar"
+    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
- <ul>
- 
- <li><a href="https://es-la.facebook.com/puchipockett" target="_blank" title="Facebook"><img src="img/facebook.png"></a></li>
- 
- <li><a href="https://www.instagram.com/" target="_blank" title="instagram"><img src="img/instagram.png" alt="instagram"></a></li>
- 
- <li><a href="https://twitter.com/Colprimviajes" target="_blank" title="Twitter"><img src="img/twitter.png" alt="Twitter"></a></li>
- 
- <li><a href="https://wa.me/+5491168140050" target="_blank" title="Contactanos"><img src="img/whatsapp.png" alt="whatsapp"></a></li>
- 
- </ul>
- </div>
- 
+  <!----------------------------------------/Eframes mapa de Google----------------------------------------------->
 
-</footer>
- <!--cierro footer---------------------------------------->
- 
- 
+
+
+  <!-----------------------------------------------------------footer--------------------------------------------->
+
+  <footer>
+    <div id="pie">
+      <p> Av. Córdoba 937 - Teléfono 1160000000</p>
+
+      <a href="mailto:ayelenlopez@gmail.com?subject=Contacto">Enviar correo</a>
+
+    </div>
+
+    <br>
+    <div id="redes">
+
+      <ul>
+
+        <li><a href="https://www.facebook.com/LosSimuladores/" target="_blank" title="Facebook"><img
+              src="img/facebook.png"></a></li>
+
+        <li><a href="https://www.instagram.com/" target="_blank" title="instagram"><img src="img/instagram.png"
+              alt="instagram"></a></li>
+
+        <li><a href="https://twitter.com/lossimuladores" target="_blank" title="Twitter"><img src="img/twitter.png"
+              alt="Twitter"></a></li>
+
+        <li><a href="https://wa.me/+5491168140050" target="_blank" title="Contactanos"><img src="img/whatsapp.png"
+              alt="whatsapp"></a></li>
+
+      </ul>
+    </div>
+
+
+  </footer>
+  <!----------------------------------------------cierro footer------------------------------------------------>
+
+
 
 </body>
 
 </html>
-
-
